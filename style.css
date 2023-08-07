@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;900&display=swap');
+#home  {
+    height: 100vh;
+}
+.nav {
+    background-color: rgba(86, 211, 233, 0.918);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+select{
+    background-color:  rgba(86, 211, 233, 0.918);
+    color: white;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(143, 235, 235, 0.651);
+}
+.logo{
+    margin-top: 60px;
+}
+.content .logo{
+    animation: l 1s ease-in;
+}
+@keyframes l{
+    0%{
+        transform: translateY(500px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.signup{
+    height: 50vh;
+    background-color: rgba(143, 235, 235, 0.651);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input{
+    color:  blue;
+}
+.x{
+    border-radius: 10px;
+}
+h2{
+    margin-left: 100px;
+    color: blue;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.signup a{
+    margin-left: 130px;
+    margin-top: 10px;
+    color: blue;
+    outline: none;
+    border: none;
+    border-color:rgba(143, 235, 235, 0.651);
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgba(143, 235, 235, 0.651);
+}
